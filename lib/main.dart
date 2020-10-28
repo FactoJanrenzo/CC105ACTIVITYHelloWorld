@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter - my Hello World'),
+      home: MyHomePage(title: 'Flutter my Hello World'),
     );
   }
 }
@@ -98,7 +98,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'You have almighty pushed the button this many times:',
+              'You have might pushed the button this many times:',
             ),
             Text(
               '$_counter',
